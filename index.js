@@ -11,3 +11,21 @@ console.log(anoAtual);
 idade = idade + 1;
 console.log(idade);
 
+//Agência de viagens Atenas, Oslo, Paris, Nova York, Cancun
+
+const listaDeDestinos = new Array(
+  "Atenas",
+  "Oslo",
+  "Paris",
+  "Nova Yorke",
+  "Cancun"
+);
+
+console.log(listaDeDestinos);
+console.log(listaDeDestinos[3]);
+listaDeDestinos.push("Coronel Vivida");
+listaDeDestinos.push("Guarulhos");
+listaDeDestinos.push("Madrid");
+listaDeDestinos.push("Wasshington DC");
+
+console.log(listaDeDestinos);
