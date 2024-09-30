@@ -43,6 +43,18 @@ listaDeDestinos.push(" Wasshington DC");
 
 console.log(listaDeDestinos);
 
+const loginCerto = "pedro";
+const senhaCerta = 123;
+
+var login = entrada("Qual é o seu login? ");
+var senha = entrada("Digite sua senha: ");
+
+while(login != loginCerto || senha != senhaCerta){
+  console.log ("Login ou senha incorretos");
+  login = entrada("Qual é o seu login? ");
+  senha = entrada("Digite sua senha: ");
+}
+
 var nomeComprador = entrada("Digite seu nome: ");
 var idadeComprador = entrada("Qual a sua idade?");
 
@@ -68,4 +80,6 @@ console.log("Escolha seu destino")
   console.log("Comprador menor de idade");
   console.log("Infelizmente não podemos vender para menores de idade");
 }
+
+
 
