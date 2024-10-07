@@ -1,3 +1,4 @@
+const { log } = require('console');
 const prompt = require('prompt-sync');
 const entrada = prompt();
 
@@ -26,6 +27,11 @@ console.log(idade);
 
 //Agência de viagens Atenas, Oslo, Paris, Nova York, Cancun
 
+console.log("—————————————————————————————————————————————————————");
+console.log("||░░░░░░░░░░░░░░░Âgencia e Viagens░░░░░░░░░░░░░░░░░||");
+console.log("—————————————————————————————————————————————————————");
+console.log("");
+
 const listaDeDestinos = new Array(
   "Atenas",
   " Oslo",
@@ -43,8 +49,14 @@ listaDeDestinos.push(" Wasshington DC");
 
 console.log(listaDeDestinos);
 
+console.log("—————————————————————————————————————————————————————");
+console.log("||░░░░░░░░░░░░░░░░░░Ârea de Login░░░░░░░░░░░░░░░░░░░||");
+console.log("—————————————————————————————————————————————————————");
+
 const loginCerto = "pedro";
 const senhaCerta = 123;
+
+
 
 var login = entrada("Qual é o seu login? ");
 var senha = entrada("Digite sua senha: ");
@@ -80,6 +92,4 @@ console.log("Escolha seu destino")
   console.log("Comprador menor de idade");
   console.log("Infelizmente não podemos vender para menores de idade");
 }
-
-
 
